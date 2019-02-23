@@ -1,0 +1,23 @@
+{
+  "name": "ng-calc",
+  "version": "1.0.0",
+  "description": "projeto automacao calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config.js",
+    "wdup" : "webdriver-manager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Everton42/Workshop-Automacao.git"
+  },
+  "author": "Everton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Everton42/Workshop-Automacao/issues"
+  },
+  "homepage": "https://github.com/Everton42/Workshop-Automacao#readme",
+  "devDependencies": {
+    "protractor": "^5.4.2"
+  }
+}
