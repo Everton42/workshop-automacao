@@ -6,8 +6,11 @@ exports.config = {
     framework: 'jasmine2',
 
     // Onde pegar arquivo para rodar
-    specs: ['test.js'],
+    specs: ['specs/calc-spec.js'],
 
+    onPrepare: () => {
+        browser.driver.manage().window().maximize();
+    },
     capabilities: {
         // browser usado
         'browserName': 'chrome'
