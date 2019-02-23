@@ -4,8 +4,8 @@
   "description": "projeto automacao calculadora",
   "main": "index.js",
   "scripts": {
-    "test": "protractor config.js",
-    "wdup" : "webdriver-manager"
+    "test": "protractor conf.js",
+    "wdup" : "webdriver-manager update"
   },
   "repository": {
     "type": "git",
