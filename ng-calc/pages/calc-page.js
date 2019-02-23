@@ -1,6 +1,6 @@
 class CalcPage{
     constructor() {
-        this.path = 'https://juliemr.github.io/protractor-demo/';
+        this.path = '/protractor-demo/';
         this.numberOne = element(by.model('first'));
         this.numberTwo = element(by.model('second'));
         this.btnGo = element(by.id('gobutton'));
