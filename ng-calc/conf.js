@@ -41,14 +41,14 @@ exports.config = {
                 enabled: true
             }
         }));
-        // var JasmineHtmlReporter = require('protractor-jasmine2-html-reporter');
-        // jasmine.getEnv().addReporter(new JasmineHtmlReporter({
-        //     savePath: 'reports',
-        //     screemShotsFolder: './shots',
-        //     takeScreenShot: true,
-        //     CleanDestination: true,
-        //     fixedScreenshotName: true
-        // }))
+        var JasmineHtmlReporter = require('protractor-jasmine2-html-reporter');
+        jasmine.getEnv().addReporter(new JasmineHtmlReporter({
+            savePath: 'reports',
+            screemShotsFolder: './shots',
+            takeScreenShot: true,
+            CleanDestination: true,
+            fixedScreenshotName: true
+        }))
 
     },
     capabilities: {

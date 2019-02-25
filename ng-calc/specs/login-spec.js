@@ -22,12 +22,12 @@ describe('Quando quero acessar minha conta', () => {
         expect(loginPage.errorMessage.getText()).toEqual('Email incorreto ou ausente.');
     });
 
-    it('Quando nao preencher os campos', () => {
+    it('Quando nao preencher a senha', () => {
         loginPage.with('everton@email.com', '');
         expect(loginPage.errorMessage.getText()).toEqual('Senha ausente.');
     });
 
-    it('Quando nao preencher os campos', () => {
+    it('Quando nao preencher senha errada', () => {
         loginPage.with('everton@email.com', '565444');
         expect(loginPage.errorMessage.getText()).toEqual('Senha inválida.');
     });
